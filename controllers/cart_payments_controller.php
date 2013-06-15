@@ -16,7 +16,7 @@ class CartPaymentsController extends CartAppController {
 	 * Processes the ipn and saves the payment and related line items
 	 */
 	function ipn() {
-		$this->CartPayment->processIpn($_POST);   
+           $this->CartPayment->processIpn($_POST);
 	}
 }
 ?>
